@@ -1,0 +1,45 @@
+{
+  "id": "aipocalypse-swamp-rats-chap-1",
+  "title": "A.I.pocalypse Swamp Rats Chapter 1",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Jesse Cizauskas",
+      "url": "www.scryingskul.com",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+   "esmodules": [
+        "aipocswampratschap1.mjs"
+    ],
+  "packs": [
+    {
+      "name": "aipoc-swamp-rats-ch-1",
+      "label": "A.I.pocalypse Swamp Rats Chapter 1",
+      "path": "packs/aipoc-swamp-rats-ch-1",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
